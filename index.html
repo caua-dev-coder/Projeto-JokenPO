@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Desafio JokenPO</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>JokenPô</h1>
+
+      <div class="effect">
+        <div class="buttons">
+          <button id="rock" onclick="playHuman('rock')">&#x270A;&#x1F3FB;</button>
+          <button id="paper" onclick="playHuman('paper')">&#x270B;&#x1F3FB;</button>
+          <button id="scissors" onclick="playHuman('scissors')">&#x270C;&#x1F3FB;</button>
+        </div>
+      </div>
+
+      <p class="result">...</p>
+      <p id="yourScore">Sua Pontuação: <span id="MyPoints">0</span></p>
+      <p id="machineScore">Pontuação da Alexa: <span id="MachinePoints">0</span></p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

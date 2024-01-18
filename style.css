@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background: url("https://images.unsplash.com/photo-1579024567380-e30f86a59623?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  opacity: 0.8;
+}
+
+.container {
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.466);
+}
+
+.buttons {
+  margin: 30px 0;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px;
+  font-size: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+button:active {
+  border: 2px solid #ff0000;
+}
+
+#rock {
+  background-color: #ffffff46;
+  box-shadow: 0 0 5px 2px rgba(247, 246, 246, 0.3);
+  backdrop-filter: blur(2px);
+}
+
+#rock:hover {
+  box-shadow: 0 0 15px #fff, inset 0 0 15px #fff;
+  text-shadow: 0 0 15px #fff;
+  transition: 0.4s ease-in-out;
+}
+
+#rock:active {
+  box-shadow: 0 0 1px #ff0000, inset 0 0 15px #ff0000;
+  text-shadow: 0 0 1px #ff0000;
+  transition: 0.1s ease-in-out;
+}
+
+#paper {
+  background-color: #ffffff46;
+  box-shadow: 0 0 5px 2px rgba(247, 246, 246, 0.3);
+  backdrop-filter: blur(2px);
+}
+
+#paper:hover {
+  box-shadow: 0 0 15px #fff, inset 0 0 15px #fff;
+  text-shadow: 0 0 15px #fff;
+  transition: 0.4s ease-in-out;
+}
+
+#paper:active {
+  box-shadow: 0 0 1px #ff0000, inset 0 0 15px #ff0000;
+  text-shadow: 0 0 1px #ff0000;
+  transition: 0.1s ease-in-out;
+}
+
+#scissors {
+  background-color: #ffffff46;
+  box-shadow: 0 0 5px 2px rgba(247, 246, 246, 0.3);
+  backdrop-filter: blur(2px);
+}
+
+#scissors:hover {
+  box-shadow: 0 0 15px #fff, inset 0 0 15px #fff;
+  text-shadow: 0 0 15px #fff;
+  transition: 0.4s ease-in-out;
+}
+
+#scissors:active {
+  box-shadow: 0 0 1px #ff0000, inset 0 0 15px #ff0000;
+  text-shadow: 0 0 1px #ff0000;
+  transition: 0.1s ease-in-out;
+}
+
+p{
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.9);
+  opacity: 0.8;
+}
+
+#yourScore span {
+  color: rgba(0, 255, 255, 0.733);
+}
+
+#machineScore span {
+  color: rgba(253, 0, 139, 0.849);
+}
